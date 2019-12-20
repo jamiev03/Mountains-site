@@ -55,7 +55,9 @@ label {
 
 @media screen and (max-width: 600px) {
     .menu {
-        display: none;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.2s, opacity 0.5s linear;
         width: 100%;
         text-align: center;
         margin: 0;
@@ -67,9 +69,11 @@ label {
         display: block;
         border-bottom: 1px solid #EBEBEA;
         margin: 0;
-        line-height: 1.5;
+        line-height: 1.6;
     }
     #toggle:checked + .menu {
         display: block;
+        visibility: visible;
+        opacity: 1;
     }
 }
