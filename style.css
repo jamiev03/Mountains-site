@@ -9,14 +9,14 @@ html {
 
 #banner {
     background-color: #666666;
-    background-image: url("img/banner.jpg");
+    background-image: url("img/pic2.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     color: #d8d8d8;
-    padding-bottom: 15em;
+    padding-bottom: 13em;
     position: relative;
-    height: 40vh;
+    height: 50vh;
 }
 .nav {
     background: transparent;
@@ -31,6 +31,7 @@ label {
     margin: 10px 20px 10px 10px;
     cursor: pointer;
     display: none;
+    width: 33px;
 }
 #toggle {
     display: none;
@@ -47,6 +48,48 @@ label {
     font-weight: 600;
     letter-spacing: 2px;
 }
+.content {
+    background: #666666;
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+img {
+    max-width: 40%;
+    display: block;
+    height: auto;
+    margin: 30px;
+}
+.text-right {
+    margin: 30px 30px 30px 0;
+}
+.text-right h4 {
+    font-size: 30px;
+    color: #EBEBEA;
+    margin-bottom: 15px;
+}
+.text-right p {
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -57,7 +100,7 @@ label {
     .menu {
         visibility: hidden;
         opacity: 0;
-        transition: visibility 0.2s, opacity 0.5s linear;
+        transition: visibility 0s, opacity 0.5s linear;
         width: 100%;
         text-align: center;
         margin: 0;
