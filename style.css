@@ -83,15 +83,49 @@ label {
     width: 50%;
     padding: 15px;
 }
-.text-right h4 {
-    color: #414040;
-    font-size: 30px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-}
 .text-right p {
     line-height: 2.0;
-    
+    font-size: 18px;
+    font-weight: 300;   
+}
+.content-2-header {
+    margin: 70px auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+.content-2-header h2 {
+    color: #414040;
+    font-size: 3em;
+    line-height: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+.content-2-header p {
+    font-size: 1.7em;
+    color: #666666;
+}
+.content-2 {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+.content-2 .img1 {
+    margin: 20px;
+}
+.content-2 img {
+    max-width: 100%;
+    height: auto;
+}
+.content-2 h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #414040;
+    font-size: 1.35em;
+    line-height: 1.5em;
+    background-color:#fff;
+    box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.15);
+    display: block;
+    padding: 2em 1em;
 }
 
 
