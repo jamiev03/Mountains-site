@@ -127,6 +127,30 @@ label {
     display: block;
     padding: 2em 1em;
 }
+.content-3 {
+    background: #2c363f;
+    width: 100%;
+    height: auto;
+}
+.content-3-header {
+    margin: 70px auto;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0;
+}
+.content-3-header h2 {
+    color: #fcf8f7;
+    font-size: 3em;
+    line-height: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+.content-3-header p {
+    font-size: 1.7em;
+    color: #666666;
+}
+
+
 
 
 
