@@ -155,6 +155,49 @@ label {
     width: 75%;
     display: flex;
     justify-content: space-between;
+    color: #414040;
+}
+i {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+h4 {
+    margin-bottom: 40px;
+}
+.left {
+    width: 50%;
+    margin-right: 50px;
+}
+.middle {
+    
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.middle a {
+    text-decoration: none;
+    color: #414040;
+    margin-bottom: 3px;
+}
+.middle i {
+    font-size: 16px;
+    margin: 0;
+}
+.right {
+    width: 25%;
+    margin-bottom: 100px;
+}
+input {
+    margin-top: 25px;
+    border: none;
+    height: 32px;
+    width: 250px;
+}
+button {
+    border: none;
+    background: #2c363f;
+    padding: 8px 20px 8px 20px;
+    color: white;
 }
 
 
