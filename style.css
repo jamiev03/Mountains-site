@@ -252,3 +252,43 @@ button {
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .text-left, .text-right {
+        width: 100%
+    }
+    .content-2-header {
+        width: 80%;
+        text-align: left;
+    }
+    .content-2 {
+        width: 90%;
+    }
+    .content-3-header {
+        width: 80%;
+        text-align: left;
+    }
+    .footer {
+        width: 80%;
+        flex-direction: column-reverse;   
+    }
+    .responsive {
+        display: flex;
+        justify-content: space-around;
+    }
+    .left {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+    
+}
